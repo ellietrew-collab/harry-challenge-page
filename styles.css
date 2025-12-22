@@ -111,6 +111,10 @@ hr {
   padding: var(--spacing-sm);
 }
 
+.countdown-timer {
+  transform: scale(1.2);
+}
+
 .sub-bullet {
   font-size: smaller;
 }
@@ -118,6 +122,10 @@ hr {
 /* Tagline Section */
 .tagline-section {
   text-align: center;
+}
+
+.tagline-section a {
+  font-weight: bolder;
 }
 
 .tagline {
@@ -153,6 +161,13 @@ hr {
 /* Video Section */
 .video-section {
   margin: var(--spacing-md) 0;
+}
+
+.video-section p {
+  text-align: center;
+  margin-bottom: var(--spacing-sm);
+  font-size: 15px;
+  font-weight: bolder;
 }
 
 .video-placeholder {
@@ -310,9 +325,6 @@ hr {
 }
 
 /* Fat Loss Section */
-.fat-loss-section {
-  padding-top: var(--spacing-md);
-}
 
 .section-title {
   font-size: 20px;
@@ -322,8 +334,16 @@ hr {
   margin-bottom: var(--spacing-md);
 }
 
+#fat-loss-title {
+  font-size: 18px;
+}
+
 #harry-intro {
-  font-weight: 350;
+  font-weight: 400;
+  color: var(--color-text-white);
+  background-color: #fd6f26;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 /* About Me Section - Updated to match pillar cards */
